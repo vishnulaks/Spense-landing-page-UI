@@ -1,0 +1,152 @@
+
+.container-fluid {
+    background-color: rgb(253, 211, 174);
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: 500;
+}
+.table-responsive{
+   scrollbar-width:none;
+   scrollbar-color: blue;
+   scroll-behavior: smooth;
+}
+
+.nav-link {
+    color: black;
+    font-size: 15px;
+
+}
+
+ul {
+    margin-top: 8px;
+}
+.navbar-toggler{
+    border: none;
+}
+
+/* article section */
+.head {
+    font-weight: 500;
+    font-size: 45px;
+    padding: 0;
+    line-height: 50px;
+}
+
+.tick-symbol {
+    font-size: 20px;
+    padding: 0 px;
+    margin: 0;
+}
+
+.email {
+    padding: 10px;
+    font-size: 15px;
+}
+
+.image-1 {
+    height: 450px;
+}
+
+.form-btn {
+    width: 200px;
+}
+
+.image-tab {
+    height: 400px;
+}
+
+.image-mobile {
+    height: 400px;
+    width: 550px;
+}
+
+.content-about-page {
+    font-size: 15px;
+}
+
+.special-cont {
+    font-weight: 450;
+}
+
+/* Collabrated companies */
+
+.img-icon {
+    height: 25px;
+    margin-right: 20px;
+}
+
+/* Escrow section */
+
+.escrow-section {
+    background-color: rgb(253, 211, 174);
+}
+
+.escrow-btn{
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+    padding-bottom: 2px;
+}
+
+.card-body{
+  background-color:   rgb(253, 211, 174);
+}
+.escrow-head {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 40px;
+}
+.escrow-page{
+   height: 350px;
+}
+.escrow-img{
+    z-index: 2;
+    position: relative;
+    top: -20px;
+    width: 1000px;
+    left:-500px;
+}
+.escrow-tab{
+    width: 600px;
+    position: relative;
+    top: -80px;
+    left: -50px;
+}
+
+.escrow-mobile{
+    position: relative;
+    top: -60px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+ul>li,.p{
+    color: rgb(192, 188, 188);
+}
+
+
+/* media query */
+
+@media (max-width:700px) {
+    .head {
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: 550;
+    }
+    .escrow-page{
+        height: 350px;
+    }
+    .escrow-head {
+        font-weight: 600;
+        font-size: 31px;
+        line-height: 40px;
+    }
+}
+@media(701px <=width<=1000px){
+    .escrow-page{
+        height: 275px;
+    }
+}
